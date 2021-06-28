@@ -1,0 +1,39 @@
+@import '~@/asset/fonts/fzzdhjt/fzzdhjt.css';
+
+.base-card {
+  &-hcmy {
+    border-radius: 0.06rem;
+    background-color: transparent !important;
+
+    .base-card {
+      &-head {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.39rem;
+
+        &-title {
+          font-family: fzzdhjt, 'FZZhengHeiS-EB-GB', 'Microsoft Yahei', serif;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          font-size: 0.5rem;
+          line-height: 1.3;
+          color: #fff;
+          background-image: url(./card-head-bg.png);
+          background-size: contain;
+          background-position: center center;
+          background-repeat: no-repeat;
+          padding: 0.18rem 0.58rem 0.15rem;
+          text-shadow: 0 0.03rem 0.08rem fade(@primary-color, 60%);
+        }
+      }
+
+      &-body {
+        background-color: transparent;
+        border-radius: @base-card-ycmt-border-radius;
+      }
+    }
+  }
+}

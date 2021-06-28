@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>进入备份</title>
+    <defs>
+        <path d="M12.0346322,0.920510567 C18.449066,0.920510567 23.6486549,6.12009943 23.6486549,12.5345332 C23.6486549,18.948967 18.449066,24.1485558 12.0346322,24.1485558 C5.62019847,24.1485558 0.420609612,18.948967 0.420609612,12.5345332 C0.420609612,6.12009943 5.62019847,0.920510567 12.0346322,0.920510567 Z M9.05447857,6.62183882 L9.05447851,6.62183888 C8.69192139,6.98463418 8.69192139,7.57258954 9.05447864,7.93538484 L13.6536316,12.5345378 L9.05447864,17.1336908 L9.05447869,17.1336907 C8.69175371,17.4967378 8.6920123,18.0850924 9.05505927,18.4478174 C9.41810636,18.8105424 10.0064609,18.8102838 10.3691859,18.4472368 C10.3691859,18.4472368 10.3691859,18.4472368 10.3691859,18.4472368 L15.6245312,13.1918915 L15.6245312,13.1918915 C15.9875783,12.8292482 15.987905,12.2409616 15.6252621,11.8779145 C15.6250186,11.8776708 15.6247749,11.8774271 15.6245312,11.8771837 L10.3691859,6.62299527 L10.369186,6.62299533 C10.0065426,6.25994824 9.4182561,6.25962159 9.05520901,6.62226432 C9.05496524,6.62250782 9.05472161,6.62275145 9.05447811,6.62299522 L9.05447857,6.62183882 Z" id="path-1"></path>
+        <filter x="-30.1%" y="-21.5%" width="160.3%" height="160.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="楼盘模板3" transform="translate(-466.000000, -1537.000000)" fill-rule="nonzero">
+            <g id="编组-2备份" transform="translate(254.500000, 1527.873524)">
+                <g id="形状" transform="translate(216.228261, 11.500000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+.base-card {
+  &-head {
+    user-select: none;
+  }
+
+  &-default {
+    box-shadow: 0rem 0.02rem 0.04rem 0.02rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.06rem;
+
+    .base-card {
+      &-head {
+        position: relative;
+        top: -@base-card-default-head-offset-top;
+        display: flex;
+        justify-content: center;
+
+        &-title {
+          position: relative;
+          font-size: 0.4rem;
+          line-height: 0.56rem;
+          border-bottom-left-radius: 0.3rem;
+          border-bottom-right-radius: 0.3rem;
+          color: #fff;
+          background-color: @primary-color;
+          padding: 0.06rem 0.8rem;
+
+          &:before,
+          &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 0;
+            border: (@base-card-default-head-offset-top / 2) solid #083750;
+            border-top-color: transparent;
+          }
+
+          &::before {
+            left: -@base-card-default-head-offset-top;
+            border-left-color: transparent;
+          }
+
+          &:after {
+            right: -@base-card-default-head-offset-top;
+            border-right-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

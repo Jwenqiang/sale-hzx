@@ -1,0 +1,26 @@
+.mainFoot() {
+  padding: 0.33rem 0.18rem;
+  position: relative;
+  background: linear-gradient(0deg, #fbaa0f, #ffbe21);
+
+  /** 左右线条渐变 */
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.03rem;
+    height: 100%;
+    background: linear-gradient(0deg, #fbaa0f, #ffffff);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0.03rem;
+    height: 100%;
+    background: linear-gradient(0deg, #fbaa0f, #ffffff);
+  }
+}
